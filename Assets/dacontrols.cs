@@ -58,6 +58,7 @@ public class dacontrols : MonoBehaviour
         if(otherThing.gameObject.name == "Enemy")
         {
             health--;
+            healthText.text = health.ToString();
 
         }
     }
