@@ -6,10 +6,14 @@ using UnityEngine;
 public class enemymovement : MonoBehaviour
 {
     // Start is called before the first frame update
+    Vector3 target;
+    public Transform end;
+   public float speed;
+    public Transform start;
     void Start()
     {
-        target = { newPos.y - = 9.46}
-        target = end;
+
+        target = end.position;
     }
 
     // Update is called once per frame
